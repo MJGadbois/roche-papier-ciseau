@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="MNJH~[}Ao(H6ee+hWCla" x="0" y="0"></block><block type="device_forever" id="#WZyKCFz~a#]hUm-=$xW" x="205" y="0"></block><block type="device_gesture_event" id="l~*?G|1wND8dhKuILQPG" x="57" y="192"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_if" id="8j+2o+W4t9H]cY.iiL6o"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="qj/.=DRwmBmNi[B[Zntw"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="0IompzC}5*X7K%$+d6gN"><value name="min"><shadow type="math_number" id="k[A/ffeK.}N|~~qGZR26"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="XE;_)elwB:Nejpp?rs41"><field name="NUM">3</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="*b@,GTx}?J|aeOh3(:s-"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="y[lE#HIm.[Av%PaskS,G"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="|V9Zdbt#PtOWn}ijUEax"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="o4Pfk8,ekyGye=VQ:Erp"><value name="min"><shadow type="math_number" id="2vSLn$Ap4deeuG$iSAdZ"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="|Rzl`p|i9y^+H!^gxE?5"><field name="NUM">3</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="bYAL+fIv~Yy4|n?VKEwd"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="G4}F`*W9AKXq2d.viHMe"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="U|`-HFX_q5~j9ocZ:FaU"><field name="LEDS">`
+        # . . # # 
+        . # . . # 
+        . . # # . 
+        . # . . # 
+        # . . # #
+        `</field></block></statement></block></statement></block></xml>
